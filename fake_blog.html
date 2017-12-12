@@ -7,7 +7,7 @@
     is me, Ashwin Vidiyala.">
   </head>
   <body>
-    <div>
+    <div id="first-half">
       <h1> Ashwin Vidiyala</h1>
       <a href="http://www.twitter.com/ashwinvidiyala">
         <img src="http://www.cutestpaw.com/wp-content/uploads/2011/11/friend.jpg"
@@ -21,7 +21,83 @@
           <li>Good Food</li>
         </ul>
         Yes, food is very important. And travel. And some good
-        coffee. Maybe booze every now and then. And kittens. And puppies. 
+        coffee. Maybe booze every now and then. And kittens. And puppies.
+      </p>
+    </div>
+
+    <div id="table">
+      <table>
+        <thead>
+          <tr>
+            <th> Food Item </th>
+            <th> How Much Do I Like It? (1-5) </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td> Chocolate Cake </td>
+            <td> 5 </td>
+          </tr>
+          <tr>
+            <td> Chicken Biryani </td>
+            <td> 5 </td>
+          </tr>
+          <tr>
+            <td> Steak </td>
+            <td> 4 </td>
+          </tr>
+          <tr>
+            <td> Fruit Loops </td>
+            <td> 2 </td>
+          </tr>
+          <tr>
+            <td> Chocolate Milkshake </td>
+            <td> 5 </td>
+          </tr>
+          <tr>
+            <td> Pizza </td>
+            <td> 3 </td>
+          </tr>
+          <tr>
+            <td> Chocolate Chip Cookies </td>
+            <td> 4 </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div id="survey">
+      <h2> Please Take This Short Survey </h2>
+      <p>
+        <label for="email"> Email: </label>
+        <input type="text" id="email" name="email">
+      </p>
+
+      <p>
+        <label for="opt-in-yes"> Yes, please bombard me with emails </label>
+        <input type="radio" id="opt-in" name="opt-in-yes" value="opt-in-yes">
+        <label for="opt-in-no"> No, I don't want to see your face. </label>
+        <input type="radio" id="opt-in" name="opt-in-no" value="opt-in-no">
+      </p>
+
+      <p> How did you hear about us? </p>
+      <p>
+        <label for="facebook"> Facebook </label>
+        <input type="checkbox" id="facebook" name="facebook" value="facebook">
+      </p>
+
+      <p>
+        <label for="twitter"> Twitter </label>
+        <input type="checkbox" id="twitter" name="twitter" value="twitter">
+      </p>
+
+      <p>
+        <label for="print"> Print </label>
+        <input type="checkbox" id="print" name="print" value="print">
+      </p>
+
+      <p>
+        <input type="submit" value="Submit">
       </p>
     </div>
   </body>
